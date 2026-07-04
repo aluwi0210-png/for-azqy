@@ -819,3 +819,72 @@ button:hover{
     }
 
 }
+.scroll-progress{
+
+    position:fixed;
+
+    right:30px;
+
+    top:50%;
+
+    transform:translateY(-50%);
+
+    z-index:9999;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.scroll-progress span{
+
+    writing-mode:vertical-rl;
+
+    font-size:13px;
+
+    letter-spacing:3px;
+
+    color:#8A8178;
+
+}
+
+.progress-line{
+
+    width:2px;
+
+    height:180px;
+
+    background:#DDD2C7;
+
+    position:relative;
+
+    border-radius:999px;
+
+}
+
+.progress-dot{
+
+    width:14px;
+
+    height:14px;
+
+    background:#A88FD8;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    top:0;
+
+    transition:.15s;
+
+}
