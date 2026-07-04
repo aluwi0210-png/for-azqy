@@ -430,3 +430,104 @@ button:hover{
     transform:translateY(-3px);
 
 }
+@media (max-width:768px){
+
+    .hero{
+
+        padding:40px 25px;
+
+    }
+
+    .hero-content{
+
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+        text-align:center;
+
+    }
+
+    h1{
+
+        font-size:52px;
+        line-height:1.15;
+
+    }
+
+    .subtitle{
+
+        font-size:18px;
+        margin-top:15px;
+
+    }
+
+    .small{
+
+        font-size:14px;
+
+    }
+
+    button{
+
+        width:200px;
+        margin-top:30px;
+
+    }
+
+    .spotify-box{
+
+        width:100%;
+        max-width:350px;
+        margin-top:35px;
+
+    }
+
+    .spotify-box iframe{
+
+        height:152px;
+
+    }
+
+    .story,
+    .gallery,
+    .letter{
+
+        padding:80px 25px;
+
+    }
+
+    .memory-card{
+
+        padding:20px;
+
+    }
+
+    .memory-text h3{
+
+        font-size:28px;
+
+    }
+
+    .letter-paper{
+
+        padding:30px;
+
+    }
+
+    .letter h2,
+    .story h2,
+    .gallery h2{
+
+        font-size:38px;
+
+    }
+
+    .gallery-grid{
+
+        grid-template-columns:1fr;
+        gap:20px;
+
+    }
+
+}
