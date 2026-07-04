@@ -230,3 +230,22 @@ button:hover{
     animation-delay:1.5s;
 
 }
+.light{
+
+    position:absolute;
+
+    width:500px;
+
+    height:500px;
+
+    border-radius:50%;
+
+    background:rgba(255,255,255,.15);
+
+    filter:blur(80px);
+
+    top:-120px;
+
+    right:-120px;
+
+}
