@@ -97,3 +97,42 @@ button:hover{
     background:#57463c;
 
 }
+.intro{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:80px 30px;
+
+}
+
+.intro h2{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:46px;
+
+    margin-bottom:25px;
+
+}
+
+.intro p{
+
+    max-width:700px;
+
+    line-height:2;
+
+    font-size:18px;
+
+    opacity:.8;
+
+}
