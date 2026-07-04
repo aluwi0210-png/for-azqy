@@ -3,6 +3,11 @@
     padding:0;
     box-sizing:border-box;
 }
+html{
+
+    scroll-behavior:smooth;
+
+}
 
 body{
 
@@ -136,5 +141,24 @@ button:hover{
     font-size:18px;
 
     opacity:.8;
+
+}
+@keyframes fadeUp{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
 
 }
