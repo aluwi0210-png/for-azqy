@@ -653,3 +653,92 @@ button:hover{
     font-style:italic;
 
 }
+.ending{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+    background:#F8F4EF;
+
+}
+
+.ending-content{
+
+    max-width:700px;
+
+}
+
+.ending-heart{
+
+    font-size:50px;
+
+    color:#D3B8F4;
+
+    margin-bottom:20px;
+
+}
+
+.ending h2{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:58px;
+
+    color:#3F352F;
+
+    margin-bottom:30px;
+
+}
+
+.ending-text{
+
+    font-size:19px;
+
+    line-height:2;
+
+    color:#5F5750;
+
+}
+
+.ending-title{
+
+    margin-top:40px;
+
+    font-family:'Playfair Display', serif;
+
+    font-size:52px;
+
+    color:#8A6DBB;
+
+}
+
+.ending-small{
+
+    margin-top:18px;
+
+    color:#8B8179;
+
+    font-style:italic;
+
+}
+
+.ending-sign{
+
+    margin-top:80px;
+
+    color:#777;
+
+    font-size:18px;
+
+    line-height:1.8;
+
+}
