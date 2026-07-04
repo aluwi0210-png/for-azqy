@@ -1,7 +1,13 @@
 const button = document.getElementById("openBtn");
 
-button.addEventListener("click",()=>{
+const button = document.getElementById("openBtn");
 
-    alert("Welcome ♡");
+button.addEventListener("click", () => {
+
+    document.querySelector(".intro").scrollIntoView({
+
+        behavior: "smooth"
+
+    });
 
 });
