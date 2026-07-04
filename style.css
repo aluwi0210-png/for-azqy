@@ -136,3 +136,30 @@ button:hover{
     opacity:.8;
 
 }
+.scroll-indicator{
+
+    margin-top:40px;
+
+    font-size:15px;
+
+    color:#7C746C;
+
+    animation:bounce 2s infinite;
+
+}
+
+@keyframes bounce{
+
+    0%,100%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(10px);
+
+    }
+
+}
