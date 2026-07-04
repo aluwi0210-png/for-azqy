@@ -391,13 +391,12 @@ button:hover{
 }
 .spotify-box{
 
-    margin-top:45px;
+    width:100%;
+    max-width:380px;
 
-    max-width:420px;
+    margin:35px auto 0;
 
-    margin-left:auto;
-
-    margin-right:auto;
+    text-align:center;
 
 }
 
@@ -407,9 +406,7 @@ button:hover{
 
     color:#7C746C;
 
-    font-size:15px;
-
-    line-height:1.7;
+    line-height:1.6;
 
 }
 
@@ -419,15 +416,9 @@ button:hover{
 
     border:none;
 
-    box-shadow:0 15px 40px rgba(0,0,0,.12);
+    border-radius:16px;
 
-    transition:.3s;
-
-}
-
-.spotify-box iframe:hover{
-
-    transform:translateY(-3px);
+    box-shadow:0 18px 45px rgba(0,0,0,.15);
 
 }
 @media (max-width:768px){
