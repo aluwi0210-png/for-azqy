@@ -1,1 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
+body{
+
+    background:#F8F4EF;
+
+    font-family:'Poppins',sans-serif;
+
+    color:#3A312A;
+
+}
+
+.hero{
+
+    height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.hero-content{
+
+    max-width:700px;
+
+}
+
+.small{
+
+    font-size:15px;
+
+    letter-spacing:2px;
+
+    margin-bottom:20px;
+
+    opacity:.7;
+
+}
+
+h1{
+
+    font-family:'Playfair Display',serif;
+
+    font-size:64px;
+
+    line-height:1.1;
+
+}
+
+.subtitle{
+
+    margin-top:20px;
+
+    font-size:20px;
+
+    opacity:.8;
+
+}
+
+button{
+
+    margin-top:60px;
+
+    border:none;
+
+    background:#3A312A;
+
+    color:white;
+
+    padding:16px 42px;
+
+    border-radius:50px;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    transform:translateY(-3px);
+
+    background:#57463c;
+
+}
