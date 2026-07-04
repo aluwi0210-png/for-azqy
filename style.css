@@ -566,3 +566,90 @@ button:hover{
     right:0;
 
 }
+.letter{
+
+    padding:120px 8%;
+
+    background:#F8F4EF;
+
+}
+
+.letter-paper{
+
+    max-width:850px;
+
+    margin:auto;
+
+    background:#FFFDFB;
+
+    padding:70px;
+
+    border-radius:28px;
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+    position:relative;
+
+}
+
+.letter-paper::before{
+
+    content:"✿";
+
+    position:absolute;
+
+    top:25px;
+
+    right:35px;
+
+    font-size:22px;
+
+    color:#D8C6F0;
+
+}
+
+.letter h2{
+
+    font-family:'Playfair Display', serif;
+
+    font-size:52px;
+
+    text-align:center;
+
+    color:#3F352F;
+
+    margin-bottom:45px;
+
+}
+
+.letter-text{
+
+    font-family:'Poppins', sans-serif;
+
+    font-size:18px;
+
+    line-height:2.1;
+
+    color:#5F5750;
+
+}
+
+.letter-text strong{
+
+    color:#3F352F;
+
+}
+
+.letter-footer{
+
+    margin-top:45px;
+
+    text-align:center;
+
+    font-size:15px;
+
+    color:#8B8179;
+
+    font-style:italic;
+
+}
