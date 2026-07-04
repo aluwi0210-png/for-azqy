@@ -522,3 +522,47 @@ button:hover{
     }
 
 }
+.divider{
+
+    margin:35px auto;
+
+    width:180px;
+
+    text-align:center;
+
+    color:#B8A8D9;
+
+    font-size:22px;
+
+    position:relative;
+
+}
+
+.divider::before,
+.divider::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:50%;
+
+    width:60px;
+
+    height:1px;
+
+    background:#D8CFC4;
+
+}
+
+.divider::before{
+
+    left:0;
+
+}
+
+.divider::after{
+
+    right:0;
+
+}
