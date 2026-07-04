@@ -1,11 +1,15 @@
 const button = document.getElementById("openBtn");
 
+console.log(button);
+
 button.addEventListener("click", () => {
+    console.log("Button clicked!");
 
-    document.querySelector(".intro").scrollIntoView({
+    const intro = document.querySelector(".intro");
 
+    console.log(intro);
+
+    intro.scrollIntoView({
         behavior: "smooth"
-
     });
-
 });
