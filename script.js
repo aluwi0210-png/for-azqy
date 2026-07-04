@@ -1,7 +1,5 @@
 const button = document.getElementById("openBtn");
 
-const button = document.getElementById("openBtn");
-
 button.addEventListener("click", () => {
 
     document.querySelector("intro").scrollIntoView({
