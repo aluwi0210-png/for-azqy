@@ -389,3 +389,44 @@ button:hover{
     transform: scale(1.04) rotate(-2deg);
 
 }
+.spotify-box{
+
+    margin-top:45px;
+
+    max-width:420px;
+
+    margin-left:auto;
+
+    margin-right:auto;
+
+}
+
+.music-text{
+
+    margin-bottom:18px;
+
+    color:#7C746C;
+
+    font-size:15px;
+
+    line-height:1.7;
+
+}
+
+.spotify-box iframe{
+
+    width:100%;
+
+    border:none;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.12);
+
+    transition:.3s;
+
+}
+
+.spotify-box iframe:hover{
+
+    transform:translateY(-3px);
+
+}
