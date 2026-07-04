@@ -196,3 +196,16 @@ button:hover{
     z-index:-2;
 
 }
+.grain{
+
+    position:absolute;
+
+    inset:0;
+
+    opacity:.05;
+
+    background-image:url("https://www.transparenttextures.com/patterns/paper-fibers.png");
+
+    pointer-events:none;
+
+}
